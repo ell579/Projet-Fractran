@@ -1,6 +1,6 @@
 from fractran import Fraction, Facteur, Fractran
 
-"""
+
 #Calcul des sommes
 
 somme = [Fraction(3, 2)]
@@ -23,7 +23,7 @@ for i in range(1, 11):
         resultat = Fractran(produit).run(facteurs_produit.nombre([i, j, 0, 0, 0, 0]))
         produit_i_j = facteurs_produit.décomposition(resultat)
         print(f"{i} * {j} = {produit_i_j[2]}")
-"""
+
 
 #Suite de Fibonacci
 
